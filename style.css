@@ -29,14 +29,9 @@ body {
   margin-left: -3px;
 }
 
-.container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-}
 
-.container::after {
+
+.tl::after {
   content: '';
   position: absolute;
   width: 25px;
@@ -100,13 +95,13 @@ body {
       left: 31px;
   }
 
-  .container {
+  .tl {
       width: 100%;
       padding-left: 70px;
       padding-right: 25px;
   }
 
-  .container::before {
+  .tl::before {
       left: 60px;
       border: medium solid white;
       border-width: 10px 10px 10px 0;
