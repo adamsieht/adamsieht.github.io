@@ -109,16 +109,24 @@
           minimize space prodcut took up. In others, we had to ensure we could
           sell enough of the high priced items to justify the cost.</p>
       </div>
-      <div class="work-content container-6">
-        <h3><a
-            href="https://docs.google.com/spreadsheets/d/1KMyrA0DhOHI9FnrqtQmpVN77lTf922DCvfC9s4NP9yU/edit?usp=sharing">O.T.T.O.
-            Time Calculator</a></h3>
+      <div class="work-content container-fluid">
+        <div class="card float-end ottocard" style="width: 50rem;">
+            <img src="masterbuilder.jpg" class="card-img-top rounded float-end" alt="O.t.t.o. Project" style="width: 10rem;">
+            <div class="card-body">
+                <h5 class="text-start card-title text-wrap text-break ">O.t.t.o. Project</h5>
+                <p class="text-start card-text text-wrap text-break">40+ users report the tool was helpful in completing the O.T.T.O. Challenges and over 250 players used the tool in 2022.</p>
+                <a href="https://docs.google.com/spreadsheets/d/1KMyrA0DhOHI9FnrqtQmpVN77lTf922DCvfC9s4NP9yU/edit?usp=sharing" class="btn btn-primary">Visit the O.T.T.O. Tool</a>
+            </div>
+        </div>
+
+
+
         <p>I have played the mobile game Clash of Clans since it's release over ten years ago (and that makes me feel
           super old). In October 17, a new base was released. Supercell dubbed it the Builder Base. It has separate
           progression, and eventually, they added an additional builder that could travel between both of the bases.
           This was instrumental because builders are precious. It allows users to progress through the game 20% faster.
-          However, it was a long journey to progress through the builder base to eventually unlock the next builder.
-          Players knew it was long, boring, and exhausting. The playerbase did not enjoy the builder base but some
+          However, it was a long journey to progrss through the builder base to eventually unlock the next builder.
+          Players knew it was long, boring, and exehausting. The playerbase did not enjoy the builder base but some
           realized that unlocking the sixth builder, for free, was worth it.</p>
         <p>The steps required for the O.T.T.O. hut are to "gear up" three buildings in the home base, to upgrade the
           cannon cart to level 18, the mega tesla to level 9, and the battlemachine to level 30. Doesn't sound too tough
@@ -127,7 +135,8 @@
           winning attacks. You must win three attacks per day to maximize your resources. The battle rewards change
           depending on the trophy count of the player. But, it requires active play to progress through the base.</p>
         <p>Planning is a central element in Clash of Clans. Managing resources to ensure builders are being used
-          efficiently is important. Players use tools like <a href="clashninja">clash ninja</a> to plan out the use of
+          efficiently is important. Players use tools like <a href="https://www.clash.ninja/">Clash Ninja</a> to plan
+          out the use of
           their resources. Clash ninja is a fantastic tool that I use myself, but, I realized it did not have a strong
           system for tracking builder base completion. So, I got to work building a tool that would help me understand
           how much more I need to progress to get to that unlock.</p>
@@ -135,17 +144,37 @@
           Similiar to this website project, I wanted to get a stronger understanding of different tools that I will have
           the opportunity to work with. I took the challenge to create a calculator that would estimate the time
           required to complete the builder hut. I started by gathering the data from a community website <a
-            href="https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki">clash wiki</a>. Clash wiki had the data
-          tables with prices and durations for the upgrades.</p>
+            href="https://clashofclans.fandom.com/wiki/Clash_of_Clans_Wiki">Clash of Clans Wiki</a>. The wiki had the
+          data
+          tables with cost and duration for the upgrades.</p>
         <p>I spent a lot of time cleaning the data and ensuring the values are set to the correct units. Time for
           example, had several formats. For shorter upgrades the time was in minutes. For longer upgrades, the format
           for time was a combination of days and hours. Overall, it required a significant portion of the project's
           time.</p>
-          <p>I used Excel VLookup tools to create dropdowns to set the values for each user. I also used this system to reference data in the data tables for my formulas. This portion of the project was the "heavy lifting" of the project that required the most thought. Players select the level for their current upgrade they are working on for each of the requirements. After their selection, various cells will also change. The tool shows data for the next upgrade cost, the time it will take to complete the upgrade, and the cumulative time and resources required to upgrade the building to the required level for the challenge.</p>
-          <p>I wanted this to be a community driven project because I knew that I was not alone in my frustration. I knew that players could be empowered to complete the challenge if they had a better understanding of how long it would take. The frustration only lies in part with the challenge but the majority of the frustration comes from not knowing the length of the challenge. A player provided a comparison that shed light on how they saw this problem. "It's frustrating because I don't know how long it will take to finish it you know? It's the same reason I hate going to the emergency room. When you don't know how long it will take until you will get out of the waiting room and its just agonizing."</p>
-          <p>I talked with the Clash of Clans reddit community and asked them about why the challenge frustrates them, what features they would like in a tool that calculates time needed, and if they needed a tool at all. I had been working on the project for a week and was not ready to release it, but ready for users to test it. I found a group of seven people that wanted to test it out and I got mixed results. Some players argued that I was reinventing the wheel, potentially even wondering if I was trying to copy Clash Ninja. I reached out to them on Discord and talked to them about my project to make sure I wasn't stepping on any toes. They were excited to hear that their website encouraged me to develop my own tool.</p>
-          <p>The feedback gave me what I needed to release a full version of the tool. I published it on Reddit and </p>
-        </div>
+        <p>I used Excel VLookup tools to create dropdowns to set the values for each user. I also used this system to
+          reference data in the data tables for my formulas. This portion of the project was the "heavy lifting" of the
+          project that required the most thought. Players select the level for their current upgrade they are working on
+          for each of the requirements. After their selection, various cells will also change. The tool shows data for
+          the next upgrade cost, the time it will take to complete the upgrade, and the cumulative time and resources
+          required to upgrade the building to the required level for the challenge.</p>
+        <p>I wanted this to be a community driven project because I knew that I was not alone in my frustration. I knew
+          that players could be empowered to complete the challenge if they had a better understanding of how long it
+          would take. The frustration only lies in part with the challenge but the majority of the frustration comes
+          from not knowing the length of the challenge. A player provided a comparison that shed light on how they saw
+          this problem. "It's frustrating because I don't know how long it will take to finish it you know? It's the
+          same reason I hate going to the emergency room. When you don't know how long it will take until you will get
+          out of the waiting room and its just agonizing."</p>
+        <p>I talked with the Clash of Clans reddit community and asked them about why the challenge frustrates them,
+          what features they would like in a tool that calculates time needed, and if they needed a tool at all. I had
+          been working on the project for a week and was not ready to release it, but ready for users to test it. I
+          found a group of seven people that wanted to test it out and I got mixed results. Some players argued that I
+          was reinventing the wheel, potentially even wondering if I was trying to copy Clash Ninja. I reached out to
+          them on Discord and talked to them about my project to make sure I wasn't stepping on any toes. They were
+          excited to hear that their website encouraged me to develop my own tool.</p>
+        <p>The feedback gave me what I needed to release a full version of the tool. I published it on Reddit and
+          received, again, mixed reception. I explained the intentions of the tool and its specific use. After that,
+          people received the tool well.</p>
+      </div>
     </div>
     <div class="column2 col-sm-2 themed-grid-col ml-3 ">
       <div class="work-content container">
@@ -207,7 +236,7 @@
                 <p>"Great job, can see this being a successful tool!"</p>
                 <h4>Reddit User Cautious-Ad7134</h4>
                 <p>"Awesome"</p>
-              </div>       
+              </div>
             </div>
             <div class="carousel-item">
               <div class="testimonials container d-block w-100" alt="...">
@@ -217,13 +246,15 @@
                 <p>"Very Nice!!!"</p>
               </div>
             </div>
-           
+
             <div class="carousel-item">
               <div class="testimonials container d-block w-100" alt="...">
                 <h4>Reddit User Simcheema</h4>
-                <p>"Honestly, for what you designed it for its 10/10 for doing its job which is telling you how fast you will complete Otto"</p>
+                <p>"Honestly, for what you designed it for its 10/10 for doing its job which is telling you how fast you
+                  will complete Otto"</p>
                 <h4>Reddit User Prior_Relationship30</h4>
-                <p>"Yeah dude it’s all correct as far as my lv of stuff is this is going to be sick when it releases"</p>
+                <p>"Yeah dude it’s all correct as far as my lv of stuff is this is going to be sick when it releases"
+                </p>
               </div>
             </div>
           </div>
@@ -271,4 +302,5 @@
     </div>
   </div>
 </footer>
+
 </html>
