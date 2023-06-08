@@ -113,3 +113,9 @@
     left: 0%;
   }
 }
+.rtl-1 {
+  border-top-left-radius: 1rem;
+}
+.rtr-1 {
+  border-top-right-radius: 1rem;
+}

@@ -1,198 +1,334 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous">
-      <script type="text/javascript">
-        window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
-        heap.load("563421322");
-      </script>
+      crossorigin="anonymous"
+    />
+    <script type="text/javascript">
+      (window.heap = window.heap || []),
+        (heap.load = function (e, t) {
+          (window.heap.appid = e), (window.heap.config = t = t || {});
+          var r = document.createElement("script");
+          (r.type = "text/javascript"),
+            (r.async = !0),
+            (r.src = "https://cdn.heapanalytics.com/js/heap-" + e + ".js");
+          var a = document.getElementsByTagName("script")[0];
+          a.parentNode.insertBefore(r, a);
+          for (
+            var n = function (e) {
+                return function () {
+                  heap.push(
+                    [e].concat(Array.prototype.slice.call(arguments, 0))
+                  );
+                };
+              },
+              p = [
+                "addEventProperties",
+                "addUserProperties",
+                "clearEventProperties",
+                "identify",
+                "resetIdentity",
+                "removeEventProperty",
+                "setEventProperties",
+                "track",
+                "unsetEventProperty",
+              ],
+              o = 0;
+            o < p.length;
+            o++
+          )
+            heap[p[o]] = n(p[o]);
+        });
+      heap.load("563421322");
+    </script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'G-XFF0DGGZYV');
-  </script>
+      gtag("config", "G-XFF0DGGZYV");
+    </script>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
-    <meta name="description" content="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-
+  
   <body>
-
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top wolfcolor">
+      <div class="container-fluid ">
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto me-4 text-black">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link "  href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="timeline.html">Work Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="internships.html">Internships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Resume.docx">Download my Resume</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Get In Touch
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/adam-theis">LinkedIn</a></li>
+                <li><a class="dropdown-item" href="https://github.com/adamsieht">GitHub</a></li>
+                <li><a class="dropdown-item" href="mailto:adamhtheis@gmail.com">Email Me</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"></script>
-    <div class="navbar rounded">
-      <nav id="navbar" class="timeline-navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-        <a href="timeline.html">Work Experiences</a>
-        <a href="internships.html">Internships</a>
-        <a href="Resume.docx" download="Resume.docx">Download my Resume</a>
-        <a href="mailto:adamhtheis@gmail.com">Email Me</a>
-      </nav>
-    </div>
+      crossorigin="anonymous"
+    ></script>
+    
+
     <script src="nav.js"></script>
-
-    <div class="accounting container col-xl-8 themed-grid-col mt-2 rounded">
-      <div class="internship-title fw-bolder text-center"><u>Spirit of 76 Fireworks
-        - Accounting Intern</u></div>
-
-      <div class="internship-description">Processed payments with high attention
-        to accuracy and detail using QuickBooks
-        software, served as the sole accountant for the Spirit 2022 fireworks
-        tent. Created accurate financial documents,
-        analyzed reports for the finance director, and conducted inventory
-        audits to improve accuracy and efficiency.
-        Provided data-driven recommendations for order quantity and pricing of
-        tent products.
-      </div>
-
-      <div class="subheading lg-3 fw-semibold text-center"><u>What did I learn?</u></div>
-      <div class="learned-content mx-2">Overall, my internship at Spirit of '76
-        Fireworks provided me with valuable hands-on experience in the
-        day-to-day financial processes and operations. Collaborating closely
-        with the Tent Manager, we focused on optimizing orders, minimizing labor
-        costs, and maximizing revenue. By meticulously pricing items and
-        continuously tracking and analyzing sales data, I ensured that our
-        revenue and associated profit consistently exceeded our goals.
-        <br>
-        <br>
-        Throughout the selling period, my diligent tracking and auditing efforts
-        helped identify errors and corrections, allowing for timely adjustments
-        and ensuring precision and accuracy in our financial reports. The daily
-        and weekly audits were instrumental in maintaining the integrity of our
-        financial data.
-        <br>
-        <br>
-        As the internship drew to a close, I took on the responsibility of
-        creating a comprehensive final report that encapsulated our
-        achievements. With confidence, I presented this report to the ownership
-        and executive-level management, highlighting the significant increase in
-        sales and profit that our pricing and inventory optimization strategies
-        had achieved, boasting double-digit growth.
-        <br>
-        <br>
-        By successfully contributing to the financial success of the project, I
-        not only honed my skills in financial analysis and reporting but also
-        gained a deeper understanding of the importance of collaboration,
-        attention to detail, and adaptability in a dynamic business environment.
-        I am grateful for the opportunity to have played a part in driving the
-        growth and profitability of Spirit of '76 Fireworks.<br> <br>
-      </div>
-
-      <div class="subheading lg-3 fw-semibold text-center"><u>Accomplishments</u></div>
-      <ul class="list-unstyled accomplishments-list">
-        <li class="mb-1">Contributed to double-digit tent revenue and profit.</li>
-        <li class="mb-1">Record-high revenue with an unpredictable market.</li>
-        <li class="mb-1">Reported findings to executive leadership.</li>
-        <li class="mb-1">Calculated discounts and their affect on reaching sales
-          goals.</li>
-        <li class="mb-1">Maintained strict observance to accounting procedures.</li>
-        <li class="mb-1">Implemented and scanned hundreds of Fireworks into the
-          <a href="https://www.76dealernetwork.com/">'76 Dealer Network</a>
-          system.</li>
-        <li class="mb-1">Learned and trained others on the '76 Dealer Network
-          system.</li>
-      </ul>
-    </div>
-
+    <div class="container-fluid mt-0">
     <div
-      class="internship-layout container col-lx-8 themed-grid-col ml-3 rounded">
-      <div class="internship-title fw-bolder text-center"><u>Information Technology
-        Intern</u></div>
-      <div class="internship-description container">
-        Provided proactive deskside technical support to ensure uninterrupted
-        operations and maximized productivity.
-        Maintained and updated computer systems to verify efficient performance,
-        collaborated with deskside IT teams to
-        troubleshoot and implement effective solutions.
+      class="work-content container xxxl-10 themed-grid-col rounded mt-2"
+    >
+      <div class="internship-title fw-bolder text-center">
+        <h2><u>Spirit of 76 Fireworks - Accounting Intern</u></h2>
       </div>
-      <div class="subheading md-3 fw-semibold text-center"><u>What did I learn?</u></div>
-      <div class="learned-content mx-2">
-        My internship with the IT deskside team at Veterans United Home Loans
-        was a transformative experience. I had the opportunity to work on
-        various projects that allowed me to enhance my technical skills and
-        broaden my knowledge of the industry. One project involved deploying and
-        configuring computers for employees, where I gained hands-on experience
-        with hardware setup, software installation, and troubleshooting.
-        Additionally, I provided technical support to end-users, assisting them
-        with hardware and software issues, network connectivity, and IT system
-        navigation. These experiences taught me the importance of
-        problem-solving and customer service in an IT support role.
-        <br>
-        <br>
-        Collaborating with the IT team on system upgrades and maintenance tasks
-        was another highlight of my internship. I learned how to perform
-        software updates, ensure data backups, and monitor the overall health
-        and performance of the IT infrastructure. This exposure gave me insight
-        into the critical role IT plays in supporting an organization's
-        operations and the significance of regular maintenance and monitoring
-        <br>
-        <br>
-        What made this internship truly exceptional was the incredible team at
-        Veterans United Home Loans. Working alongside talented, hardworking, and
-        supportive individuals was a privilege. They provided guidance and
-        mentorship, fostering an environment of open communication and
-        collaboration. I was encouraged to ask questions and seek help whenever
-        needed, accelerating my learning and making the experience the perfect
-        experience for me.
+      <div class="internship-description">
+        Processed payments with high attention to accuracy and detail using
+        QuickBooks software, served as the sole accountant for the Spirit 2022
+        fireworks tent. Created accurate financial documents, analyzed reports
+        for the finance director, and conducted inventory audits to improve
+        accuracy and efficiency. Provided data-driven recommendations for order
+        quantity and pricing of tent products.
       </div>
-      <div class="subheading lg-3 fw-semibold text-center"><u>Accomplishments</u></div>
-      <ul class="list-unstyled accomplishments-list">
-        <li class="mb-1">Provided customer support to hundreds of employees.</li>
-        <li class="mb-1">Oversaw continued operations for five buildings and
-          over 500 employees on our 7 person team.</li>
-        <li class="mb-1">Attended "Analyst Hours", a bi-weekly meeting with all
-          data teams.</li>
-        <li class="mb-1">Learned basics of Tableau, SQL, and how the system
-          interacts with it's elements.</li>
-        <li class="mb-1">Preformed routine re-imaging procedures, updates, and
-          laptop rollouts.</li>
-        <li class="mb-1">Tackled challenges where the root-cause was unknown.</li>
-        <li class="mb-1">Organized and maintained the technology storage room.</li>
-        <li class="mb-1">Met weekly with Deskside IT teams to learn more about
-          technology and new changes coming in the future.</li>
-      </ul>
+
+      <div class="subheading lg-3 fw-semibold text-center">
+        <h4><u>What did I learn?</u></h4>
+      </div>
+      <div class="learned-content mt-2">
+        <p>
+          Overall, my internship at Spirit of '76 Fireworks provided me with
+          valuable hands-on experience in the day-to-day financial processes and
+          operations. Collaborating closely with the Tent Manager, we focused on
+          optimizing orders, minimizing labor costs, and maximizing revenue. By
+          meticulously pricing items and continuously tracking and analyzing
+          sales data, I ensured that our revenue and associated profit
+          consistently exceeded our goals.
+        </p>
+        <p>
+          Apart from being th Throughout the selling period, my diligent
+          tracking and auditing efforts helped identify errors and corrections,
+          allowing for timely adjustments and ensuring precision and accuracy in
+          our financial reports. The daily and weekly audits were instrumental
+          in maintaining the integrity of our financial data.
+        </p>
+
+        <p>
+          As the internship drew to a close, I took on the responsibility of
+          creating a comprehensive final report that encapsulated our
+          achievements. With confidence, I presented this report to the
+          ownership and executive-level management, highlighting the significant
+          increase in sales and profit that our pricing and inventory
+          optimization strategies had achieved, boasting double-digit growth.
+        </p>
+
+        <p>
+          By successfully contributing to the financial success of the project,
+          I not only honed my skills in financial analysis and reporting but
+          also gained a deeper understanding of the importance of collaboration,
+          attention to detail, and adaptability in a dynamic business
+          environment. I am grateful for the opportunity to have played a part
+          in driving the growth and profitability of Spirit of '76 Fireworks.
+        </p>
+
+        <div class="subheading lg-3 fw-semibold text-center p-2">
+          <h4><u>Accomplishments</u></h4>
+        </div>
+        <div class="col-12">
+          <ul
+            class="list-unstyled accomplishments-list d-flex justify-content-center"
+          >
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Contributed to double-digit tent revenue and profit.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Record-high revenue with an unpredictable market.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">Reported findings to executive leadership.</li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Calculated discounts and their affect on reaching sales goals.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Maintained strict observance to accounting procedures.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Learned and trained others on the '76 Dealer Network system.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Implemented the new <a href="https://www.76dealernetwork.com/"
+                >'76 Dealer Network</a> &
+              system accurately audited inventory.
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-  </div>
 
-  
-  </body>
-  <footer class="border-4 footer-bg py-3 my-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2 d-flex align-items-center justify-content-center">
-          <img src="Images/headshot.jpg" class="footimage rounded-circle">
+      <div class="work-content container xxxl-10 themed-grid-col rounded mt-2">
+        <div class="internship-title fw-bolder text-center">
+          <h2><u>Information Technology Intern</u></h2>
         </div>
-        <div class="col-md-10">
-          <ul class="nav justify-content-end">
-            <li class="nav-item"><a href="index.html" class="nav-link text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="about.html" class="nav-link text-body-secondary">About Me</a></li>
-            <li class="nav-item"><a href="timeline.html" class="nav-link text-body-secondary">Work Experience</a></li>
-            <li class="nav-item"><a href="internship.html" class="nav-link text-body-secondary">Internships</a></li>
-            <li class="nav-item"><a href="Resume.docx" download="Resume.docx" class="nav-link text-body-secondary">Resume Download</a></li>
-            <li class="nav-item"><a href="mailto:adamhtheis@gmail.com" class="nav-link text-body-secondary">Email Me!</a></li>
+        <div class="internship-description">
+          Provided proactive deskside technical support to ensure uninterrupted
+          operations and maximized productivity. Maintained and updated computer
+          systems to verify efficient performance, collaborated with deskside IT
+          teams to troubleshoot and implement effective solutions.
+        </div>
+        <div class="subheading lg-3 fw-semibold text-center p-2">
+          <h4><u>What did I learn?</u></h4>
+        </div>
+        <div class="learned-content mx-2">
+          <p>
+            My internship with the IT deskside team at Veterans United Home
+            Loans was a transformative experience. I had the opportunity to work
+            on various projects that allowed me to enhance my technical skills
+            and broaden my knowledge of the industry. One project involved
+            deploying and configuring computers for employees, where I gained
+            hands-on experience with hardware setup, software installation, and
+            troubleshooting. Additionally, I provided technical support to
+            end-users, assisting them with hardware and software issues, network
+            connectivity, and IT system navigation. These experiences taught me
+            the importance of problem-solving and customer service in an IT
+            support role.
+          </p>
+
+          <p>
+            During my internship at Veterans United, I gained exposure to the
+            technology and systems that support financial and data analysis.
+            While the internship focused on IT support, it allowed me to
+            understand the importance of data security, efficient information
+            management, and the integration of technology in financial
+            operations. This experience provided me with a broader perspective
+            on the relationship between IT infrastructure and financial
+            analysis, highlighting the need for reliable data systems and
+            effective collaboration between different departments.
+          </p>
+
+          <p>
+            What made this internship truly exceptional was the incredible team
+            at Veterans United Home Loans. Working alongside talented,
+            hardworking, and supportive individuals was a privilege. They
+            provided guidance and mentorship, fostering an environment of open
+            communication and collaboration. I was encouraged to ask questions
+            and seek help whenever needed, accelerating my learning and making
+            the experience the perfect experience for me.
+          </p>
+        </div>
+        <div class="row">
+          <div class="subheading lg-3 fw-semibold text-center p-2">
+            <h4><u>Accomplishments</u></h4>
+          </div>
+          <div class="col-12">
+            <ul
+            class="list-unstyled accomplishments-list d-flex justify-content-center">
+          <li class="mb-1 p-2" style="min-width:auto;">
+              Provided customer support to hundreds of employees.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Oversaw continued operations for five buildings and over 500
+              employees on our 7 person team.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Attended "Analyst Hours", a bi-weekly meeting with all data teams.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Learned basics of Tableau, SQL, and how database systems interact
+              with eachother.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Preformed asset audits to verify updates have been preformed
+              successfully.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Solved frustrating technological challenges where the root-cause
+              was unknown.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Organized and maintained the Echo technology storage room.
+            </li>
+            <li class="mb-1 p-2" style="min-width:auto;">
+              Promoted strong internal customer service methods. Average 5 star
+              customer service record.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+  <div class="container-fluid" style="position: absolute;">
+    <footer class="wolfcolor">
+      <div class="row">
+        <div class="col">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link text-body-secondary">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="timeline.html" class="nav-link text-body-secondary">Work Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="internship.html" class="nav-link text-body-secondary">Internships</a>
+            </li>
+            <li class="nav-item">
+              <a href="mailto:adamhtheis@gmail.com" class="nav-link text-body-secondary">Email</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.linkedin.com/in/adam-theis" class="nav-link text-body-secondary">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/adamsieht" class="nav-link text-body-secondary">GitHub</a>
+            </li>
+            <li class="nav-item">
+              <a href="Resume.docx" download="Resume.docx" class="nav-link text-body-secondary">
+                Resume
+                Download
+              </a>
+            </li>
           </ul>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <p class="text-body-secondary text-end">&copy; Adam Theis, 2023</p>
-        </div>
-      </div>
-    </div>
+        <img src="Images/headshot.jpg" class="rounded-circle position-relative bottom-0 start-50 translate-middle-x mb-2"
+          style="height:90px; width: 120px;">
+   
+  
   </footer>
   
+</html>

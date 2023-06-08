@@ -36,8 +36,8 @@ body {
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -12.5px;
-  background-color: white;
+  right: -12px;
+  background-color: #5B2333;
   border: 4px solid #FF9F55;
   top: 15px;
   border-radius: 50%;
@@ -117,82 +117,18 @@ body {
       left: 0%;
   }
 }
-.navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #cec9c9;
-  padding: 10px;
-  z-index: 1000;
-  position: relative;
-  border-style: solid;
-}
 
-.navbar a {
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-          padding: 10px;
-          border-radius: 10px;
-          opacity: 0.8;
-          margin-right: 10px;
-}
-
-.navbar a:hover {
-  background-color: #FF9F55;
-}
-/* Navbar links */
-#navbar a {
-float: left;
-display: block;
-color: #000000;
-text-align: center;
-padding: 14px;
-text-decoration: none;
-} .sticky + .content {
-padding-top: 180px;
-}
-.navbar-fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #cec9c9;
-  z-index: 1;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  border-style: solid;
-}
-/* Add your custom styles here */
-
-
-.navbar a {
-  color: #FFFFFF;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
-.testimonials {
-
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #cec9c9;
-  border-radius: 6px;
-  margin-bottom: 20px;
-}
 .work-content{
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
   margin: 0 auto;
   padding: 20px;
-  background-color: #cec9c9;
+  background-color: #F7F4F3;
   border-radius: 6px;
   margin-bottom: 20px;
 }
 
 .projects {
-  background-color: #cec9c9;
+  background-color: #F7F4F3;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -205,7 +141,7 @@ padding-top: 180px;
   background-size: 500px;
 }
 .skills-container {
-  background-color: #cec9c9;
+  background-color: #F7F4F3;
   padding: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 0;
@@ -340,24 +276,8 @@ input[type="submit"]:hover {
   height: 100%;
 }
 
-.navimage {
-  max-width: 100px;
-  height: auto;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
 
-.timeline-navbar {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
 
-.timeline-navbar li {
-  margin-right: 10px;
-}
 
 .internship {
   background-color: #cec9c9;
@@ -428,9 +348,7 @@ input[type="submit"]:hover {
 }
 
 
-.skills-container h3 {
-  margin: 0;
-}
+
 .horizontal-form {
   display: flex;
   flex-wrap: wrap;
@@ -448,10 +366,9 @@ input[type="submit"]:hover {
   display: inline;
 }
 
-.horizontal-form button {
-  flex: 0 0 100%;
+
   
-}
+
 .footer-bg{
   background-color: #cec9c9;
   max-height: 200px;
@@ -467,9 +384,9 @@ input[type="submit"]:hover {
 }
 
 .footimage {
-  width: 150px;
-  height: 150px;
-  padding: 10px;
+  width: 50px;
+  height: 50px;
+
   align-items: start;
 }
 .contact-footer {
@@ -527,8 +444,8 @@ input[type="submit"]:hover {
 .cardtext {
   z-index: 2000;
 }
-.vl { border-left: 6px solid gray;
-  height: 1250px;
+.vl { border-left: 6px solid #5B2333;
+  height: 1280px;
   position: absolute;
   left: 50%;
   margin-left: -3px;
@@ -540,8 +457,63 @@ input[type="submit"]:hover {
 }
 .ottocard{
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #cec9c9;
+  background-color: #F7F4F3;
 
   padding: 20px;
   border-radius: 6px;
+}
+.browncolor {
+  background-color: #564D4A;
+}
+.whitecolor {
+  background-color: #F7F4F3;
+}
+.winecolor {
+  background-color: #F1B82D;
+}
+.redcolor {
+  background-color: #F24333;
+}
+.dredcolor {
+  background-color: #BA1B1D;
+}
+.wolfcolor {
+  background-color: #dad7cd;
+}
+
+.rectangle {
+  height: 590px;
+  width: 400px;
+  z-index: 1;
+  position: absolute; 
+  offset-position: right 10px top 10px;
+}
+.rectangle2 {
+  height: 590px;
+  width: 420px;
+  z-index: 1;
+  position: absolute; 
+  
+}
+
+.carousels {
+  margin-top: 380px;
+  background-color: #000000;
+  color: whitesmoke;
+}
+.bigbox {
+  min-height: 100px;
+  opacity: 100;
+  background-color: #F1B82D;
+  margin-top: -250px;
+  
+}
+
+.h3 {
+  margin-top: 3%
+}
+
+hr {
+  width: 110%;
+  margin-right: 5%;
 }
