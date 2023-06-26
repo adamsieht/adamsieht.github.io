@@ -37,7 +37,7 @@ body {
   width: 25px;
   height: 25px;
   right: -12px;
-  background-color: #5B2333;
+  background-color: black;
   border: 4px solid #FF9F55;
   top: 15px;
   border-radius: 50%;
@@ -444,7 +444,7 @@ input[type="submit"]:hover {
 .cardtext {
   z-index: 2000;
 }
-.vl { border-left: 6px solid #5B2333;
+.vl { border-left: 6px solid black;
   height: 1280px;
   position: absolute;
   left: 50%;
@@ -516,4 +516,7 @@ input[type="submit"]:hover {
 hr {
   width: 110%;
   margin-right: 5%;
+}
+.imagewidth {
+  width: 100%;
 }
