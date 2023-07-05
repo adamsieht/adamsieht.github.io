@@ -520,3 +520,7 @@ hr {
 .imagewidth {
   width: 100%;
 }
+
+.cropping {
+  margin-top: 20%;
+}

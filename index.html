@@ -1,204 +1,214 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <script type="text/javascript">
-    window.heap = window.heap || [], heap.load = function (e, t) { window.heap.appid = e, window.heap.config = t = t || {}; var r = document.createElement("script"); r.type = "text/javascript", r.async = !0, r.src = "https://cdn.heapanalytics.com/js/heap-" + e + ".js"; var a = document.getElementsByTagName("script")[0]; a.parentNode.insertBefore(r, a); for (var n = function (e) { return function () { heap.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], o = 0; o < p.length; o++)heap[p[o]] = n(p[o]) };
-    heap.load("563421322");
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-XFF0DGGZYV');
-  </script>
-  <title>Home</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="nav.js"></script>
-</head>
-<nav class="navbar navbar-expand-lg navbar-light sticky-top wolfcolor">
-  <div class="container-fluid ">
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ms-auto me-4 text-black">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="about.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="timeline.html">Work Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="internships.html">Internships</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Resume.docx">Download my Resume</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Get In Touch
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://www.linkedin.com/in/adam-theis">LinkedIn</a></li>
-            <li><a class="dropdown-item" href="https://github.com/adamsieht">GitHub</a></li>
-            <li><a class="dropdown-item" href="mailto:adamhtheis@gmail.com">Email Me</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<body>
-  <div class="container-fluid">
-    
-    <div class="row">
-      <div class="col-sm-4 col-xs-4 col-xxs-4 col-md-4 d-flex justify-content-center align-items-center">
-        <div class="container d-flex justify-content-center">
-        <img src="DSC_0207.JPG" class="img-fluid p-2 winecolor rounded-3 justify-contents-center" style="max-height: 594px; z-index: 2;">
-      </div>
-    </div>
-      <div class="col-xl-8">
-        <div class="container mt-4 text-center">
-          <h3>Hello,</h3>
-          <p>
-            My name is Adam Theis and I am a recent graduate of the University of Missouri. In May 2023, I earned a
-            Bachelors of Science in Business Administration: Finance & Banking as well as a Bachelors of Science in
-            Economics. I am a data nerd at heart and I'm excited to be able to use the skills I enhanced through
-            school. I made this website as a simple testament to my dedication to learning new skills.
-          </p>
-          <p>
-            In my freetime, I enjoy traveling with my fiancé Moira. We met and fell in love at Mizzou. We both plan on
-            remaining in Columbia. My Christmas gift was a planned road trip during spring break for my final semester.
-            It was the most incredible trip I could have imagined. We traveled from Columbia to Denver and then Salt
-            Lake City the next day. After, we went to Zion National Park where Moira & I got engaged. The next few days
-            were spent in Valley of Fire, Las Vegas, and the Grand Canyon. It was a lot to do in a week!
-          </p>
-          <p>I also enjoy photography. I photographed my fiancé's graduation photos, protests at Mizzou, and for QTPOC Prom.
-            I'm currently living with my fiancé, here in our college town Columbia. We found that we absolutely both the small-town
-            summers and the student influx. We travel to St. Louis for Cardinals baseball and concerts alike. </p>
-        </div>
-        <div class="container text-center mt-5 mb-4">
-          <div class="container">
-            <div class="row">
-              <h2 class="text-center mt-4 mb-5">What am I looking for in a company?</h2>
-              <div class="col">
-                <h5>
-                  <strong>
-                    <u>Professional development</u>
-                  </strong>
-                </h5>
-                I am passionate
-                about learning and
-                will always strive to learn new things. I want to find a company
-                that is willing
-                to take advantage of the passion I have for learning how to understand,
-                optimize, and solve problems.
-                </p>
+  <head>
+      <!-- Header content !-->
+      <script type="text/javascript">
+        window.heap = window.heap || [], heap.load = function (e, t) { window.heap.appid = e, window.heap.config = t = t || {}; var r = document.createElement("script"); r.type = "text/javascript", r.async = !0, r.src = "https://cdn.heapanalytics.com/js/heap-" + e + ".js"; var a = document.getElementsByTagName("script")[0]; a.parentNode.insertBefore(r, a); for (var n = function (e) { return function () { heap.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "resetIdentity", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], o = 0; o < p.length; o++)heap[p[o]] = n(p[o]) };
+        heap.load("563421322");
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+            <link
+                href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+                rel="stylesheet"
+                integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+                crossorigin="anonymous"
+            >
+            <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-XFF0DGGZYV');
+            </script>
+            <title>Home</title>
+            <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <!-- Navigation bar !-->
+      <header>
+           <nav class="navbar navbar-expand-lg navbar-light sticky-top wolfcolor">
+             <nav class="navbar navbar-expand-lg navbar-light sticky-top wolfcolor">
+                <div class="container-fluid ">
+                   <button
+                       class="navbar-toggler"
+                       type="button"
+                       data-bs-toggle="collapse"
+                       data-bs-target="#navbarNavDropdown"
+                       aria-controls="navbarNavDropdown"
+                       aria-expanded="false"
+                       aria-label="Toggle navigation"
+                   >
+                       <span class="navbar-toggler-icon"></span>
+                   </button>
+                   
+                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                       <ul class="navbar-nav ms-auto me-4 text-black">
+                           <li class="nav-item">
+                               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="about.html">About Me</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="timeline.html">Work Experience</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="internships.html">Internships</a>
+                           </li>
+                           <li class="nav-item">
+                               <a class="nav-link" href="Resume.docx">Download my Resume</a>
+                           </li>
+                           <li class="nav-item dropdown">
+                               <a
+                                   class="nav-link dropdown-toggle"
+                                   href="#"
+                                   role="button"
+                                   data-bs-toggle="dropdown"
+                                   aria-expanded="false"
+                               >
+                                   Get In Touch
+                               </a>
+                               <ul class="dropdown-menu">
+                                   <li>
+                                       <a class="dropdown-item" href="https://www.linkedin.com/in/adam-theis">LinkedIn</a>
+                                   </li>
+                                   <li>
+                                       <a class="dropdown-item" href="https://github.com/adamsieht">GitHub</a>
+                                   </li>
+                                   <li>
+                                       <a class="dropdown-item" href="mailto:adamhtheis@gmail.com">Email Me</a>
+                                   </li>
+                               </ul>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </nav>
+           </nav>
+       </header>
+       <main>
+           <div class="col-12">
+            
+               <div class="container mt-4 ">
+                   <!-- your introductory content -->
+                   <h3>Hello,</h3>  
+                   
+                    <!-- your image and its classes -->
+                   
+               
+                       <p>
+                           My name is Adam Theis and I am a recent graduate of the University of Missouri. In May 2023, I earned a
+                           Bachelors of Science in Business Administration: Finance & Banking as well as a Bachelors of Science in
+                           Economics. I am a data nerd at heart and I'm excited to be able to use the skills I enhanced through
+                           school. I made this website as a simple testament to my dedication to learning new skills.
+                       
+                       <p>
+                           In my freetime, I enjoy traveling with my fiancé Moira. We met and fell in love at Mizzou. We both plan on
+                           remaining in Columbia. My Christmas gift was a planned road trip during spring break for my final semester.</p><img src="DSC_0208.JPG" class=" p-1 bg-secondary rounded-3 d-flex flex-wrap float-end m-2 cropping d-md-none" style="z-index: 2; max-width: 300px">
+                           It was the most incredible trip I could have imagined. We traveled from Columbia to Denver and then Salt
+                           Lake City the next day. After, we went to Zion National Park where Moira & I got engaged. The next few days
+                           were spent in Valley of Fire, Las Vegas, and the Grand Canyon. It was a lot to do in a week!
+                       </p>
+                       <p>
+                           I also enjoy photography. I took my fiancé's graduation photos, protests at Mizzou, and for QTPOC Prom.
+                         I'm currently living with my fiancé, here in our college town Columbia. We found that we absolutely both the small-town
+                         summers and the student influx. We travel to St. Louis for Cardinals baseball and concerts alike.
+                       </p>
+               </div>
+              
+              
+                
               </div>
-              <div class="col">
-                <h5>
-                  <strong>
-                    <u>Sense of purpose</u>
-                  </strong>
-                  </p>
-                </h5>
-                I want to feel like I am
-                important to an organization. I want to come in and meet
-                with fellow teams that communicate their ideas and provide a fourm
-                for me to discuss
-                potential directions with a team.
-                </h5>
-              </div>
+            
+               <br>
+               <hr>
+               <br>
+               <div class="row">
+               <h2 class="text-center mt-4 mb-5">What am I looking for in a company?</h2>
+
+                <div class="col-md-4 col-xs-6 col-sm-6 text-center">
+                  <br>
+                   <h5><strong><u>Professional development</u></strong></h5>
+                   
+                   <p>I am passionate about learning and will always strive to learn new things.
+                      I want to find a company that is willing to take advantage of the passion
+                       I have for learning how to understand, optimize, and solve problems.</p>
+                       <br>
+                 <h5> <strong><u>Sense of purpose</u></strong></h5>
+                 <p>I want to feel like I am important to an organization. I want to come in and
+                  meet with fellow teams that communicate their ideas and provide a forum for
+                  me to discuss potential directions with a team.</p>
+                </div>
+                <div class="col-md-3 d-md-flex d-sm-none d-xs-none justify-content-center ">
+                    
+                      <img src="DSC_0208.JPG" class="img-fluid p-1 rounded-3 ms-3 d-xs-none d-sm-none d-md-flex d-lg-flex d-xl-flex bg-secondary" style="z-index: 2; max-height: 450px;">
+                  </div>
+              
+             <div class="col-md-4 col-xs-6 col-sm-6 text-center">
+              
+              <br>
+                 <h5><strong><u>Data driven</u></strong></h5>
+                 <p>I have a niche love of data, economics, and finance. Roles that encourage my
+                   use of these interests are perfect. I want to be able to use the skills I have
+                    developed to make informed decisions from requirements and constraints.</p>
+              <br>
+                 <h5><strong><u>Mission focused</u></strong></h5>
+                 <p>I want to work for a company that works for good. Companies often take advantage
+                   of their community instead of reinvesting into it. I want to work for companies
+                    that show they take care of their employees and community.</p>
+             </div>
+         </div>
+
+       </div>
+               </div>
             </div>
-            <div class="row">
-              <div class="col">
-                <h5>
-                  <strong>
-                    <u>Data driven</u>
-                  </strong>
-                </h5>
-                <p>
-                  I have a niche love of data,
-                  econoimcs, and finance. It
-                  is undoubtedly a strange combination but roles at the intersection
-                  of finance and technology
-                  are the perfect solution.
-                </p>
-              </div>
-              <div class="col">
-                <h5>
-                  <strong>
-                    <u>Mission focused</u>
-                  </strong>
-                </h5>
-                <p>
-                  I want to work for a
-                  company that works for good. Companies often take advantage of
-                  their community instead of reinvesting into it. I want to work for
-                  companies that show
-                  they take care of their employees and community.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      </div>
-      
-    </div>
-  </div>
-</body>
+               
+           </div>
+        </main>
+       <footer class=" container-fluid wolfcolor mt-2">
+           
+               <div class="row">
+                   <!-- your footer navigation content -->
+                   <div class="container-fluid" style="position: absolute;">
+                     <footer class="wolfcolor">
+                         <div class="row">
+                             <div class="col">
+                                 <ul class="nav justify-content-center">
+                                     <li class="nav-item">
+                                        <a href="index.html" class="nav-link text-body-secondary">Home</a>
+                                       </li>
+                                     <li class="nav-item">
+                                         <a href="about.html" class="nav-link text-body-secondary">About Me</a>
+                                       </li>
+                                     <li class="nav-item">
+                                         <a href="timeline.html" class="nav-link text-body-secondary">Work Experience</a>
+                                      </li>
+                                     <li class="nav-item">
+                                         <a href="internships.html" class="nav-link text-body-secondary">Internships</a>
+                                      </li>
+                                     <li class="nav-item">
+                                         <a href="mailto:adamhtheis@gmail.com" class="nav-link text-body-secondary">Email</a>
+                                       </li>
+                                     <li class="nav-item">
+                                         <a href="https://www.linkedin.com/in/adam-theis" class="nav-link text-body-secondary">LinkedIn</a>
+                                       </li>
+                                     <li class="nav-item">
+                                         <a href="https://github.com/adamsieht" class="nav-link text-body-secondary">GitHub</a>
+                                       </li>
+                                     <li class="nav-item">
+                                         <a href="Resume.docx" download="Resume.docx" class="nav-link text-body-secondary">
+                                           Download my Resume!
+                                         </a>
+                                       </li>
+                                 </ul>
+                             </div>
+                         
+                         <div class="row">
+                             <img src="Images/headshot.jpg" class="rounded-circle position-relative bottom-0 start-50 translate-middle-x mb-2" style="height:90px; width: 120px;">
+                         </footer>
+                     
+                     
+           </div>
+       </footer>
+   </body>
+</html>
 
-<div class="container-fluid" style="position: absolute;">
-  <footer class="wolfcolor">
-    <div class="row">
-      <div class="col">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link text-body-secondary">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link text-body-secondary">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="timeline.html" class="nav-link text-body-secondary">Work Experience</a>
-          </li>
-          <li class="nav-item">
-            <a href="internships.html" class="nav-link text-body-secondary">Internships</a>
-          </li>
-          <li class="nav-item">
-            <a href="mailto:adamhtheis@gmail.com" class="nav-link text-body-secondary">Email</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.linkedin.com/in/adam-theis" class="nav-link text-body-secondary">LinkedIn</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://github.com/adamsieht" class="nav-link text-body-secondary">GitHub</a>
-          </li>
-          <li class="nav-item">
-            <a href="Resume.docx" download="Resume.docx" class="nav-link text-body-secondary">
-              Resume
-              Download
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <img src="Images/headshot.jpg" class="rounded-circle position-relative bottom-0 start-50 translate-middle-x mb-2"
-        style="height:90px; width: 120px;">
- 
-
-</footer>
